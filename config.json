@@ -1,6 +1,35 @@
+
 {
-    "title":"Blog Title",
-    "subTitle":"Blog description",
-    "avatarUrl":"https://github.githubassets.com/favicons/favicon.svg",
-    "GMEEK_VERSION":"last"
-}
+  // ================ 基础信息 & SEO ================
+  "title": "我的技术博客 | 探索数字世界",      // 【必换】博客标题
+  "subTitle": "分享技术思考与开发实践",        // 【必换】博客描述
+  "avatarUrl": "https://example.com/logo.png", // 【必换】替换你的Logo URL
+  "GMEEK_VERSION": "last",
+
+  // ================ 视觉与品牌 ================
+  "displayTitle": "技术探索者",              // 导航栏显示标
+  "yearColorList": ["#ff6b6b", "#48dbfb", "#1dd1a1", "#feca57"], // 年份标签配色
+  "commentLabelColor": "#a29bfe",           // 评论标签颜色
+  "dayTheme": "light",                       // 日间主题
+  "nightTheme": "dark_dimmed",               // 夜间主题（推荐深色模式）
+  "themeMode": "auto",                       // 自动切换主题（根据系统设置）
+
+  // ================ 网站信息 ================
+  "homeUrl": "https://yourdomain.com",       // 【建议换】自定义域名
+  "email": "jax_yyds@163.com",         // 联系邮箱
+  "startSite": "04/25/2025",                 // 建站日期（显示运营时间）
+
+
+  // ================ 功能配置 ================
+  "onePageListNum": 10,                      // 首页每页文章数
+  "singlePage": ["about", "projects", "links"], // 独立页面（需创建对应issue）
+  "iconList": {                               // 独立页面图标
+    "projects": "M3 3h12v2H3zm0 4h18v2H3zm0 4h12v2H3zm0 4h18v2H3z"
+  },
+  "exlink": {                                 // 右上角扩展按钮
+    "github": "https://github.com/jax-169/"
+  },
+  "showPostSource": 1,                       // 显示文章源码链接
+  "needComment": 1                        // 启用评论
+
+  // 
